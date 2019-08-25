@@ -7,7 +7,3 @@ With the help of this application we can simulate intel 8085 microprocessor asse
 
 
 
-Demo video of simple add program.
-https://drive.google.com/open?id=1BOZN7wnaCLbOFW4dUZgwNYI4qkkKwdJ6
-
-
