@@ -1,1 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/microprocessor">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Write"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_write_button"
+			android:layout_weight="1.0"
+			android:layout_margin="8dp"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Edit / Debug"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_edit_button"
+			android:layout_weight="1.0"
+			android:layout_margin="8dp"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Register"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_register_button"
+			android:layout_margin="8dp"
+			android:layout_weight="1.0"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Run"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_run_button"
+			android:layout_margin="8dp"
+			android:layout_weight="1.0"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_marginTop="30dp"
+		android:background="@drawable/lcd">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="INTEL 8085 SIMULATOR"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_text_view"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			android:layout_marginTop="12dp"
+			android:layout_marginLeft="12dp"
+			android:layout_marginBottom="10dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="wrap_content"
+				android:id="@+id/id_edittext"
+				android:lines="1"
+				android:maxLines="1"
+				android:layout_weight="2.0"
+				android:textSize="25sp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginBottom="15dp"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="Enter"
+				android:layout_width="wrap_content"
+				android:id="@+id/id_enter_button"
+				android:layout_weight="1.0"
+				android:layout_marginRight="15dp"
+				android:layout_marginBottom="15dp"
+				android:textStyle="bold"
+				android:textSize="19sp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="&lt;"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_previous_button"
+			android:layout_weight="1.0"
+			android:layout_margin="10dp"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="&gt;"
+			android:layout_width="wrap_content"
+			android:id="@+id/id_next_button"
+			android:layout_weight="1.0"
+			android:layout_margin="10dp"
+			android:textStyle="bold"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
 
