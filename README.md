@@ -11,4 +11,3 @@ Demo video of simple add program.
 https://drive.google.com/open?id=1BOZN7wnaCLbOFW4dUZgwNYI4qkkKwdJ6
 
 
-<iframe src="https://drive.google.com/file/d/1BOZN7wnaCLbOFW4dUZgwNYI4qkkKwdJ6/preview" width="640" height="480"></iframe>
